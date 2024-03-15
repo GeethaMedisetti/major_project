@@ -23,16 +23,16 @@ if (selected == 'Diabetes Disease Prediction'):
         Glucose = st.text_input('Glucose Level')
     
     with col1:
-        BloodPressure = st.text_input('Blood Pressure value')
+        BloodPressure = st.text_input('Blood Pressure value in mm Hg')
     
     with col2:
-        SkinThickness = st.text_input('Skin Thickness value')
+        SkinThickness = st.text_input('Skin Thickness value in mm')
     
     with col1:
-        Insulin = st.text_input('Insulin Level')
+        Insulin = st.text_input('Insulin Level in mu U/ml')
     
     with col2:
-        BMI = st.text_input('BMI value')
+        BMI = st.text_input('BMI value(weight in kg/(height in m)^2)')
     
     with col1:
         DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
