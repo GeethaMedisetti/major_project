@@ -6,7 +6,7 @@ heart_final_model = pickle.load(open('heart_final_model.sav','rb'))
 lung_model = pickle.load(open('lung_model.sav', 'rb'))
 with st.sidebar:
     selected = option_menu('Concurrent Disease Prediction System',                       
-                          ['Diabetes Prediction',
+                          ['Diabetes Disease Prediction',
                            'Heart Disease Prediction',
                            'Lung Cancer Prediction'],
                           icons=['activity','heart-pulse','lungs'])    
